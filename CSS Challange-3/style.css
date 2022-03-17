@@ -1,0 +1,123 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.product {
+  font-family: sans-serif;
+  line-height: 1.5;
+  width: 825px;
+  border: 5px solid black;
+  margin: 100px auto;
+  background-color: rgb(229, 226, 226);
+}
+.product-title {
+  padding: 15px;
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: bold;
+  background-color: #f7f7f7;
+  position: relative;
+}
+
+.price {
+  font-size: 20px;
+}
+
+.shipping {
+  font-size: 15px;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: gray;
+  margin-bottom: 20px;
+}
+
+.product-details {
+  margin-top: 30px;
+  text-transform: uppercase;
+  padding-bottom: 10px;
+}
+
+.product-list {
+  list-style: square;
+  padding-left: 30px;
+}
+.product-list li {
+  padding-bottom: 5px;
+}
+
+.product-info {
+  padding-bottom: 5px;
+}
+
+.information-link,
+.information-link:visited {
+  text-align: center;
+  color: #000;
+  text-decoration: none;
+}
+.information-link:hover,
+.information-link:active {
+  text-decoration: underline;
+}
+
+.add-button {
+  background-color: #000;
+  border-top: 5px solid black;
+  border-left: none;
+  color: white;
+  text-transform: uppercase;
+  font-size: 20px;
+  padding: 20px;
+  width: 100%;
+}
+
+.add-button:hover,
+.add-button:active {
+  background-color: white;
+  color: black;
+  cursor: pointer;
+}
+
+.product-title::before {
+  content: "SALE";
+  background-color: rgb(175, 22, 22);
+  color: rgb(224, 204, 204);
+  font-size: 10px;
+  padding: 15px 20px;
+
+  letter-spacing: 3px;
+  position: absolute;
+  top: -20px;
+  left: -40px;
+}
+
+.square {
+  margin-top: 10px;
+  content: "";
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  margin-right: 10px;
+}
+
+.red-bg {
+  background-color: red;
+}
+
+.black-bg {
+  background-color: black;
+}
+.blue-bg {
+  background-color: blue;
+}
+
+.green-bg {
+  background-color: green;
+}
+.white-bg {
+  background-color: white;
+}
+.yellow-bg {
+  background-color: yellow;
+}
